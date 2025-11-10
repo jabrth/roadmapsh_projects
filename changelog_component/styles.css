@@ -1,0 +1,92 @@
+h1{
+	font-size: 300%;
+	font-weight: lighter;
+}
+
+header{
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	width: 100%;
+}
+
+p, .date{
+	color: rgb(144, 144, 144);
+}
+
+div{
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+main{
+	margin: 5% 30%
+}
+
+
+.oneline{
+	display: flex;
+}
+
+.date {
+	min-width: 140px;
+}
+
+.title{
+	font-weight: bold;
+	min-width: 290px;
+}
+
+span{
+    border: 1px solid #000;
+    height: 100px;
+	margin-left: 5%;
+	margin-right: 5%;
+	width: 0;
+}
+
+.circle{
+	background-color: black;
+	border-radius: 50%;
+	width: 20px;
+	height: 20px;
+	position: relative;
+	right: 10px;
+}
+
+.btn {
+	position: relative;
+	left: 35%;
+	margin: 5% 0;
+	border: 2px solid black;
+	height: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #000;
+	border-radius: 10px;
+	max-width: 260px;
+}
+
+.btn a{
+	text-decoration: none;
+	color: white;
+}
+
+
+@media screen and (max-width : 900px){
+
+	header{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+
+	main{
+		display: block;
+		text-align: center;
+		margin: 0;
+	}
+
+	.title{
+		min-width: 100px;
+	}
+}
